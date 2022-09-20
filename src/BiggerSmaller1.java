@@ -5,9 +5,9 @@ public class BiggerSmaller1 {
 
         Scanner input = new Scanner(System.in);
         System.out.println("Insert first number:");
-        double a = input.nextDouble();
+        int a = input.nextInt();
         System.out.println("Insert second number:");
-        double b = input.nextDouble();
+        int b = input.nextInt();
 
         System.out.println("Bigger number is: " + Math.max(a,b) + ", while smaller is: " + Math.min(a,b));
     }

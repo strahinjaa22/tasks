@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class BiggerSmaller1 {
     public static void main(String[] args) {
+
         Scanner input = new Scanner(System.in);
         System.out.println("Insert first number:");
         double a = input.nextDouble();

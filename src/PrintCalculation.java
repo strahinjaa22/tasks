@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class PrintCalculation {
     public static void main(String[] args) {
 
-
         Scanner input = new Scanner(System.in);
         System.out.println("Insert first number:");
         int a = input.nextInt();

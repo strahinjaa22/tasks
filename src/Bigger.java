@@ -16,17 +16,13 @@ public class Bigger {
                 a = input.nextInt();
                 System.out.println("Insert second number:");
                 b = input.nextInt();
-            } while(a==b);{
-                if (a>b){
-                    System.out.println("Bigger number is: " + a);
-                } else {
-                    System.out.println("Bigger number is: " + b);
-                }
-            }
-        } else if (a>b){
-            System.out.println("Bigger number is: " + a);
+            } while(a==b);
         } else {
-            System.out.println("Bigger number is: " + b);
+            if (a>b){
+                System.out.println("Bigger number is: " + a);
+            } else {
+                System.out.println("Bigger number is: " + b);
+            }
         }
     }
 }

@@ -9,7 +9,7 @@ public class Bigger {
         System.out.println("Insert second number:");
         int b = input.nextInt();
 
-        if (a==b){
+        if (a==b) {
             do {
                 System.out.println("Numbers cannot be equal!");
                 System.out.println("Insert first number:");
@@ -18,7 +18,7 @@ public class Bigger {
                 b = input.nextInt();
             } while(a==b);
         } else {
-            if (a>b){
+            if (a>b) {
                 System.out.println("Bigger number is: " + a);
             } else {
                 System.out.println("Bigger number is: " + b);

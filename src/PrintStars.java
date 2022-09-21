@@ -6,30 +6,16 @@ public class PrintStars {
         Scanner input = new Scanner(System.in);
         System.out.println("Insert a number:");
         int x = input.nextInt();
-        String message = null;
 
-        switch (x){
-            case 1:
-                message="*";
-                break;
-            case 2:
-                message="**";
-                break;
-            case 3:
-                message="***";
-                break;
-            case 4:
-                message="****";
-                break;
-            case 5:
-                message="*****";
-                break;
-            case 6:
-                message="*******";
-                break;
-            default:
-                message="invalid number of";
-        }
+        String message = switch (x) {
+            case 1 -> "*";
+            case 2 -> "**";
+            case 3 -> "***";
+            case 4 -> "****";
+            case 5 -> "*****";
+            case 6 -> "*******";
+            default -> "invalid number of";
+        };
         System.out.println("The number you have picked has " + message + " stars");
     }
 }

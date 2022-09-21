@@ -7,6 +7,7 @@ public class FunctionSolver {
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
         System.out.println("Value of X is:" + x);
+
         if (0<=x && x<=100) {
             System.out.println("f(x)="+(2*x));
             System.out.println("g(x)="+(int)Math.pow(x,2));

@@ -11,7 +11,7 @@ public class Bigger2 {
 
         if (x>y) {
             System.out.println("Bigger number is: " + x);
-        } else if (x<y){
+        } else if (x<y) {
             System.out.println("Bigger number is: " + y);
         } else {
             System.out.println("Numbers are equal!");

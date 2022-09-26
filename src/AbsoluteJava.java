@@ -11,7 +11,7 @@ public class AbsoluteJava {
         } else{
             System.out.println("Absolute value of inserted number is: " + Math.abs(a));
         }
-//komentar tekst
+//komentar tekst22
         
     }
 }

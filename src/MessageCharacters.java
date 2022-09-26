@@ -12,5 +12,6 @@ public class MessageCharacters {
         } else {
             System.out.println("Your message has to be between 6-10 characters!");
         }
+        System.out.println("Branch bugfix");
     }
 }

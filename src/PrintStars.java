@@ -15,7 +15,6 @@ public class PrintStars {
             case 5 -> "*****";
             case 6 -> "*******";
             default -> "invalid number of";
-
         };
         System.out.println("The number you have picked has " + message + " stars");
     }

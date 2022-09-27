@@ -22,22 +22,23 @@ public class Methods {
         return n;
     }*/
 
-    public static void calculate(int a, int b){
+    public static void calculate(int a, int b) {
         System.out.println(a+b);
         System.out.println(a-b);
     }
 
-    public static void calculate(int c, int d, int e){
+    public static void calculate(int c, int d, int e) {
         System.out.println(c+d+e);
         System.out.println(c*d*e);
     }
 
-    public static int calculateAgain(int a, int b){
+    public static int calculateAgain(int a, int b) {
         int sum = a*b;
         System.out.println(sum);
         return sum;
     }
-    public void greetMe(){
+
+    public void greetMe() {
         System.out.println("hello");
     }
 }

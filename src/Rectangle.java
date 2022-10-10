@@ -8,7 +8,7 @@ public class Rectangle {
         this.height = height;
     }
 
-    public double rectangleArea() {
+    public double calculateArea() {
         this.area = getWidth()*getHeight();
         return area;
     }

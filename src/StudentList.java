@@ -6,7 +6,7 @@ public class StudentList {
         studentOne.setName("Mark");
         studentOne.setAge(33);
         studentOne.setSemesterNo(8);
-        studentOne.setGpa(3.3);
+        studentOne.setGpa(4.3);
         StudHw studentTwo = new StudHw();
         studentTwo.setName("John");
         studentTwo.setAge(23);

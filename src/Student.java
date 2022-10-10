@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Student {
     private String name;
     private int age;
@@ -30,9 +28,7 @@ public class Student {
     public int getSemesterNo() {
         return semesterNo;
     }
-    public void setSemesterNo() {
-            this.semesterNo = semesterNo;
-    }
+    public void setSemesterNo() {this.semesterNo = semesterNo; }
 
     public double getGpa() {
         return gpa;
